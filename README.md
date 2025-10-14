@@ -12,29 +12,29 @@
 
 ```bash
 # 后台启动命令
-./rund.sh start <command>
+./rund start <command>
 
 # 查看运行中的进程
-./rund.sh status
+./rund status
 
 # 停止指定PID的进程
-./rund.sh stop <pid>
+./rund stop <pid>
 ```
 
 ## 示例
 
 ```bash
 # 启动一个Python服务器
-./rund.sh start python -m http.server 8000
+./rund start python -m http.server 8000
 
 # 启动一个Node.js应用
-./rund.sh start node app.js
+./rund start node app.js
 
 # 查看所有进程
-./rund.sh status
+./rund status
 
 # 停止PID为12345的进程
-./rund.sh stop 12345
+./rund stop 12345
 ```
 
 ## 特性
